@@ -1,0 +1,25 @@
+{
+  "name": "gob-peru-web-scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/puppeteer-core": "^5.4.0",
+    "firebase": "^9.5.0",
+    "firebase-admin": "^10.0.0",
+    "puppeteer-core": "^11.0.0"
+  }
+}
